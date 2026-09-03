@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta property="og:title" content="NovaCare Clinic | Quality Healthcare">
+    <meta property="og:description" content="Professional healthcare services with experienced doctors.">
+    <meta property="og:image" content="https://novaacaree.netlify.app/images/hero-preview.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="NovaCare Clinic provides professional healthcare services with experienced doctors and compassionate care.">
+    <title>NovaCare Clinic | Quality Healthcare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+    <header class="navbar">
+        <a href="#home" class="logo">Nova<span>Care</span></a>
+        <nav class="nav-links" id="nav-links">
+            <a href="#home" class="nav-link active">Home</a>
+            <div class="nav-item dropdown" id="services-dropdown">
+                <button class="nav-link dropdown-toggle" aria-expanded="false" aria-controls="services-submenu">
+                    Services <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="submenu" id="services-submenu">
+                    <a href="#services" class="submenu-link">General Medicine</a>
+                    <a href="#services" class="submenu-link">Cardiology</a>
+                    <a href="#services" class="submenu-link">Dental Care</a>
+                    <a href="#services" class="submenu-link">Pediatrics</a>
+                    <a href="#services" class="submenu-link">Physiotherapy</a>
+                    <a href="#services" class="submenu-link">Neurology</a>
+                </div>
+            </div>
+            <a href="#doctors" class="nav-link">Doctors</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#appointment" class="nav-link">Appointment</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+        <a href="#appointment" class="nav-cta">Book Appointment</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main>
+        <!-- =========================
+             HERO
+        ========================== -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="eyebrow">Trusted Healthcare</p>
+                    <h1>
+                        Better Care.
+                        <span>Better Health.</span>
+                    </h1>
+                    <p class="hero-description">
+                        Professional healthcare delivered with
+                        compassion, experience, and a commitment
+                        to your wellbeing.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#appointment" class="btn btn-primary">Book an Appointment</a>
+                        <a href="#services" class="btn btn-secondary">Explore Services</a>
+                    </div>
+                    <div class="hero-trust">
+                        <div class="trust-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Experienced Doctors</span>
+                        </div>
+                        <div class="trust-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Patient Focused</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-shape"></div>
+                    <img src="herodoctor.jpg" alt="Doctor at NovaCare Clinic">
+                    <div class="hero-card">
+                        <div class="hero-card-icon">
+                            <i class="fa-solid fa-calendar-check"></i>
+                        </div>
+                        <div>
+                            <strong>Easy Appointments</strong>
+                            <span>Book your visit today</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             STATS
+        ========================== -->
+        <section class="stats">
+            <div class="stats-container">
+                <div class="stat">
+                    <strong>10+</strong>
+                    <span>Years of Experience</span>
+                </div>
+                <div class="stat">
+                    <strong>15k+</strong>
+                    <span>Happy Patients</span>
+                </div>
+                <div class="stat">
+                    <strong>12</strong>
+                    <span>Medical Specialists</span>
+                </div>
+                <div class="stat">
+                    <strong>6</strong>
+                    <span>Days a Week</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             SERVICES
+        ========================== -->
+        <section class="services section" id="services">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">What We Offer</p>
+                    <h2>
+                        Healthcare that puts
+                        <span>you first.</span>
+                    </h2>
+                </div>
+                <p>
+                    Our clinic provides a range of healthcare
+                    services designed around your needs.
+                </p>
+            </div>
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+                    <h3>General Medicine</h3>
+                    <p>
+                        Professional diagnosis, treatment,
+                        and ongoing care for common health concerns.
+                    </p>
+                    <a href="#services">Learn More <span>→</span></a>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                    </div>
+                    <h3>Cardiology</h3>
+                    <p>
+                        Comprehensive heart care and
+                        cardiovascular consultations.
+                    </p>
+                    <a href="#services">Learn More <span>→</span></a>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-tooth"></i>
+                    </div>
+                    <h3>Dental Care</h3>
+                    <p>
+                        Preventive and restorative dental
+                        services for healthy, confident smiles.
+                    </p>
+                    <a href="#services">Learn More <span>→</span></a>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-child"></i>
+                    </div>
+                    <h3>Pediatrics</h3>
+                    <p>
+                        Friendly and attentive healthcare
+                        for infants, children, and teenagers.
+                    </p>
+                    <a href="#services">Learn More <span>→</span></a>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-person-running"></i>
+                    </div>
+                    <h3>Physiotherapy</h3>
+                    <p>
+                        Personalized treatment plans to
+                        improve movement, strength, and recovery.
+                    </p>
+                    <a href="#services">Learn More <span>→</span></a>
+                </article>
+                <article class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3>Neurology</h3>
+                    <p>
+                        Specialist consultations for neurological
+                        conditions and concerns.
+                    </p>
+                    <a href="#services">Learn More <span>→</span></a>
+                </article>
+            </div>
+        </section>
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+        <section class="about section" id="about">
+            <div class="about-image">
+                <img src="ClinicInside.jpg" alt="NovaCare Clinic interior" loading="lazy">
+                <div class="about-badge">
+                    <strong>10+</strong>
+                    <span>Years of<br>Trusted Care</span>
+                </div>
+            </div>
+            <div class="about-content">
+                <p class="eyebrow">About NovaCare</p>
+                <h2>
+                    Healthcare built around
+                    <span>people, not numbers.</span>
+                </h2>
+                <p>
+                    At NovaCare Clinic, we believe healthcare
+                    should feel personal. Our team takes the time
+                    to understand every patient and provide care
+                    based on their individual needs.
+                </p>
+                <p>
+                    From routine checkups to specialist
+                    consultations, our goal is to make quality
+                    healthcare accessible, comfortable, and reliable.
+                </p>
+                <div class="about-features">
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span>Experienced medical professionals</span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span>Modern and comfortable environment</span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span>Patient centered approach</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             WHY CHOOSE US
+        ========================== -->
+        <section class="why-us section">
+            <div class="section-heading centered">
+                <p class="eyebrow">Why NovaCare</p>
+                <h2>
+                    Care you can
+                    <span>count on.</span>
+                </h2>
+                <p>
+                    We focus on creating a healthcare experience
+                    that is professional, comfortable, and convenient.
+                </p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-number">01</div>
+                    <i class="fa-solid fa-user-doctor"></i>
+                    <h3>Qualified Doctors</h3>
+                    <p>
+                        Our medical team combines experience,
+                        knowledge, and compassionate patient care.
+                    </p>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">02</div>
+                    <i class="fa-solid fa-hospital"></i>
+                    <h3>Modern Facility</h3>
+                    <p>
+                        A clean, comfortable environment designed
+                        to make every visit easier.
+                    </p>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">03</div>
+                    <i class="fa-solid fa-clock"></i>
+                    <h3>Convenient Hours</h3>
+                    <p>
+                        Flexible clinic hours make it easier
+                        to fit healthcare into your schedule.
+                    </p>
+                </div>
+                <div class="why-card">
+                    <div class="why-number">04</div>
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                    <h3>Personal Care</h3>
+                    <p>
+                        Every patient receives attention,
+                        respect, and care throughout their visit.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================
+             DOCTORS
+        ========================== -->
+        <section class="doctors section" id="doctors">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Meet Our Team</p>
+                    <h2>
+                        Experienced people
+                        <span>behind your care.</span>
+                    </h2>
+                </div>
+                <p>
+                    Our specialists are dedicated to providing
+                    professional and compassionate healthcare.
+                </p>
+            </div>
+            <div class="doctors-grid">
+                <article class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="dr-sarah-ahmed.jpg" alt="Dr. Sarah Ahmed, General Physician" loading="lazy">
+                    </div>
+                    <div class="doctor-content">
+                        <p>General Physician</p>
+                        <h3>Dr. Sarah Ahmed</h3>
+                        <span>MBBS, FCPS</span>
+                    </div>
+                </article>
+                <article class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="dr-hamza-malik.jpg" alt="Dr. Hamza Malik, Cardiologist" loading="lazy">
+                    </div>
+                    <div class="doctor-content">
+                        <p>Cardiologist</p>
+                        <h3>Dr. Hamza Malik</h3>
+                        <span>MBBS, FCPS Cardiology</span>
+                    </div>
+                </article>
+                <article class="doctor-card">
+                    <div class="doctor-image">
+                        <img src="dr-ayesha-khan.jpg" alt="Dr. Ayesha Khan, Pediatrician" loading="lazy">
+                    </div>
+                    <div class="doctor-content">
+                        <p>Pediatrician</p>
+                        <h3>Dr. Ayesha Khan</h3>
+                        <span>MBBS, DCH</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- =========================
+             APPOINTMENT
+        ========================== -->
+        <section class="appointment section" id="appointment">
+            <div class="appointment-wrapper">
+                <div class="appointment-content">
+                    <p class="eyebrow">Book Your Visit</p>
+                    <h2>
+                        Your health deserves
+                        <span>your time.</span>
+                    </h2>
+                    <p>
+                        Fill out the form and send your appointment
+                        request directly through WhatsApp.
+                    </p>
+                    <div class="appointment-info">
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <strong>Call Us</strong>
+                                <span>+92 300 1234567</span>
+                            </div>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-clock"></i>
+                            <div>
+                                <strong>Opening Hours</strong>
+                                <span>Mon - Sat, 9:00 AM - 9:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <form class="appointment-form" id="appointment-form">
+                    <div class="form-group">
+                        <label for="patient-name">Your Name</label>
+                        <input type="text" id="patient-name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="patient-phone">Phone</label>
+                            <input type="tel" id="patient-phone" placeholder="03XX XXXXXXX" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="appointment-date">Date</label>
+                            <input type="date" id="appointment-date" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="department">Department</label>
+                        <select id="department" required>
+                            <option value="">Select department</option>
+                            <option>General Medicine</option>
+                            <option>Cardiology</option>
+                            <option>Dental Care</option>
+                            <option>Pediatrics</option>
+                            <option>Physiotherapy</option>
+                            <option>Neurology</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="Tell us anything we should know..."></textarea>
+                    </div>
+                    <button type="submit" class="appointment-btn">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        Request Appointment
+                    </button>
+                    <p class="form-note">Your request will open in WhatsApp.</p>
+                </form>
+            </div>
+        </section>
+
+        <!-- =========================
+             TESTIMONIALS
+        ========================== -->
+        <section class="testimonials section">
+            <div class="section-heading centered">
+                <p class="eyebrow">Patient Experiences</p>
+                <h2>
+                    Care that makes a
+                    <span>difference.</span>
+                </h2>
+            </div>
+            <div class="testimonial-grid">
+                <article class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        "The staff were professional and welcoming.
+                        The doctor took the time to properly explain
+                        everything to me."
+                    </p>
+                    <div class="patient">
+                        <div class="patient-avatar">A</div>
+                        <div>
+                            <strong>Ali Raza</strong>
+                            <span>Patient</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        "A very clean and comfortable clinic.
+                        Booking an appointment was simple and the
+                        whole experience was excellent."
+                    </p>
+                    <div class="patient">
+                        <div class="patient-avatar">M</div>
+                        <div>
+                            <strong>Maria Khan</strong>
+                            <span>Patient</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        "I appreciated how friendly everyone was.
+                        The doctor listened carefully and answered
+                        all my questions."
+                    </p>
+                    <div class="patient">
+                        <div class="patient-avatar">H</div>
+                        <div>
+                            <strong>Hassan Ahmed</strong>
+                            <span>Patient</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+        <section class="contact section" id="contact">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Get In Touch</p>
+                    <h2>
+                        We're here when
+                        <span>you need us.</span>
+                    </h2>
+                </div>
+                <p>
+                    Have a question or need directions?
+                    Get in touch with our team.
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>123 Main Street,<br>Islamabad, Pakistan</p>
+                    <a href="#">Get Directions →</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>+92 300 1234567</p>
+                    <a href="tel:+923001234567">Call Clinic →</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>hello@novacare.pk</p>
+                    <a href="mailto:hello@novacare.pk">Send Email →</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Saturday<br>9:00 AM - 9:00 PM</p>
+                    <a href="#appointment">Book Appointment →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="#home" class="logo">Nova<span>Care</span></a>
+                <p>Professional healthcare with a personal touch.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Explore</h3>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#doctors">Doctors</a>
+                <a href="#about">About</a>
+                <a href="#appointment">Appointment</a>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact</h3>
+                <p>+92 300 1234567</p>
+                <p>hello@novacare.pk</p>
+                <p>Islamabad, Pakistan</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 NovaCare Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
